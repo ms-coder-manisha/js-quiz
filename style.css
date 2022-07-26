@@ -1,0 +1,328 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  background-color: blueviolet;
+  height: 100;
+  width: 40%;
+  text-align: center;
+  border-radius: 50px;
+  border: 5px solid white;
+}
+.underline {
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+  text-decoration: underline;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+.rules {
+  color: white;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 30px;
+}
+.rule-list {
+  color: aliceblue;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  list-style-type: none;
+  margin-bottom: 25px;
+}
+.user_name {
+  border-radius: 20px;
+  width: 60%;
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 15px;
+  color: blueviolet;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border: 2px white;
+}
+.submit_name {
+  border-radius: 20px;
+  background-color: white;
+  color: blueviolet;
+  margin: 10px;
+  padding: 10px 20px;
+  border: 2px white;
+  cursor: pointer;
+}
+.btn-container {
+  margin: 20px 8px;
+  padding: 20px 10px;
+}
+.continue {
+  width: 20%;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: linear-gradient(to top, violet, pink, peachpuff);
+  border-radius: 30px;
+  padding: 10px;
+  color: slategrey;
+  cursor: pointer;
+  margin: 5px 8px;
+}
+.exit {
+  width: 20%;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  background-image: linear-gradient(violet, pink, peachpuff);
+  border-radius: 30px;
+  padding: 10px;
+  color: slategrey;
+  cursor: pointer;
+  margin: 5px 8px;
+}
+.error {
+  background-color: white;
+  width: 60%;
+  margin: auto;
+  color: red;
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.continue:hover {
+  background-image: linear-gradient(to right, green, greenyellow);
+  color: black;
+}
+.exit:hover {
+  background-image: linear-gradient(to right, red, orange);
+  color: black;
+}
+
+.container1 {
+  width: 50%;
+  height: 100%;
+  margin: auto;
+  margin-top: 50px;
+  background-color: blueviolet;
+  border-radius: 20px;
+  border: 5px solid white;
+}
+#error {
+  margin: 10px 20px;
+  color: red;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+.quizbox h1 {
+  color: white;
+  margin-top: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+.quiz-header {
+  display: flex;
+}
+#status {
+  margin: 10px 25px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: white;
+}
+#countdown {
+  float: right;
+  margin-left: 420px;
+  border: 2px solid white;
+  background-color: transparent;
+  margin-bottom: 2px;
+  border-radius: 7px;
+  height: 40px;
+  width: 130px;
+  color: white;
+  font-weight: bold;
+  text-align: center;
+  padding: 7px 10px;
+}
+#questions {
+  color: white;
+  font-size: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 70px;
+  margin: 10px 25px;
+}
+.btn {
+  display: block;
+  width: 80%;
+  height: 5vh;
+  background-color: white;
+  color: black;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  text-align: left;
+  margin-left: 10px;
+  box-shadow: 5px black 0.4;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 5px 10px;
+  font-size: 15px;
+}
+.btn:hover {
+  background-color: rgb(198, 246, 101);
+  cursor: pointer;
+}
+.btn:active {
+  background-color: yellow;
+  color: black;
+}
+.btn span {
+  margin: 10px;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+.container2 {
+  position: absolute;
+  width: 40%;
+  height: 50%;
+  background-color: blueviolet;
+  color: white;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+  border: 5px solid white;
+}
+.change_button {
+  left: 40%;
+  margin-top: 40px;
+  padding: 10px 20px;
+  display: flex;
+}
+
+#prev_btn {
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  color: blueviolet;
+  padding: 10px 10px;
+  margin: 10px 20px;
+  cursor: pointer;
+}
+#prev_btn:hover {
+  background-color: indigo;
+  color: white;
+  font-size: 15px;
+}
+#next_btn {
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  color: blueviolet;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+#next_btn:hover {
+  background-color: indigo;
+  color: white;
+  font-size: 15px;
+}
+#skip_btn {
+  width: 40%;
+  border-radius: 20px;
+  background-color: white;
+  color: blueviolet;
+  padding: 10px 10px;
+  margin: 10px 10px;
+  cursor: pointer;
+}
+#skip_btn:hover {
+  background-color: indigo;
+  color: white;
+  font-size: 15px;
+}
+.result {
+  margin: 60px 30px;
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+}
+.score {
+  font-size: 25px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+
+.btn_retake {
+  width: 30%;
+  height: 10%;
+  background-color: darkgreen;
+  font-size: 15px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.btn_retake:hover {
+  background-color: white;
+}
+.btn_retake a {
+  text-decoration: none;
+  color: white;
+}
+.btn_retake a:hover {
+  background-color: white;
+  color: black;
+  width: 33%;
+  font-size: 20px;
+  font-weight: bold;
+}
+#score {
+  color: ivory;
+}
+.quiz-repeat button {
+  width: 40%;
+  background-color: orangered;
+  padding: 10px 20px;
+  border-radius: 10px;
+  color: white;
+  margin-top: 10px;
+}
+.quiz-repeat button:hover {
+  background-color: white;
+  color: black;
+}
+.quiz-repeat button a {
+  text-decoration: none;
+  font-size: 15px;
+}
+.quiz-repeat a:hover {
+  font-size: 16px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+}
+.option_group li {
+  list-style: none;
+  font-size: 15px;
+  margin-top: 20px;
+}
+.option {
+  width: 60%;
+  background-color: white;
+  border-radius: 20px;
+  border: 2px solid indigo;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  color: blueviolet;
+  cursor: pointer;
+}
+.active {
+  background-color: indigo;
+  color: white;
+}

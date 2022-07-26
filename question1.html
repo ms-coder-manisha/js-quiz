@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+    <style>
+      body {
+        height: 100vh;
+        width: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    </style>
+  </head>
+  <body background="bg1.jpg">
+    <main>
+      <div class="container1">
+        <div class="quizbox">
+          <div id="quiz">
+            <h1>Javascript Quiz App</h1>
+            <div class="quiz-header">
+              <p id="status"></p>
+              <p id="countdown"></p>
+            </div>
+            <p id="error" style="display: none">Select one option</p>
+            <p id="questions">
+              <!---What is HTML?</p>
+            
+            <div class="btn-container">
+              <button class="btn" id="btn0">
+                A.
+                <span id="choice0"></span>
+              </button>
+              <button class="btn" id="btn1">
+                B.
+                <span id="choice1"></span>
+              </button>
+              <button class="btn" id="btn2">
+                C.
+                <span id="choice2"></span>
+              </button>
+              <button class="btn" id="btn3">
+                D.
+                <span id="choice3"></span></button
+              >
+            </div>--->
+            </p>
+
+            <div class="change_button">
+              <button id="prev_btn" onclick="prev()">Previous</button>
+              <button id="next_btn" onclick="next()">Next</button>
+
+              <button id="skip_btn" onclick="skip()">Skip</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <script src="app1.js"></script>
+    </main>
+  </body>
+</html>
